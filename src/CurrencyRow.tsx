@@ -7,7 +7,7 @@ type ICurrencyRow = {
 };
 
 const CurrencyRow: FC<ICurrencyRow> = (props) => {
-    const { moneyType, value, onChange } = props;
+    const { moneyType, onChange } = props;
 
     return (
         <div>
